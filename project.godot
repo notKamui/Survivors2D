@@ -17,6 +17,12 @@ instance_dock/scenes=[{
 "scene": "res://scenes/player/player.tscn"
 }],
 "scroll": 0
+}, {
+"name": "Env",
+"scenes": [{
+"scene": "res://scenes/game_camera/game_camera.tscn"
+}],
+"scroll": 0
 }]
 
 [application]
@@ -25,6 +31,11 @@ config/name="Survivors2D"
 run/main_scene="res://scenes/main/main.tscn"
 config/features=PackedStringArray("4.0", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Timing="*res://utils/timing.gd"
+Groups="*res://utils/groups.gd"
 
 [display]
 

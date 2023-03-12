@@ -1,13 +1,12 @@
 extends CharacterBody2D
 
-
 @export var max_speed := 200
 
 
-func _physics_process(delta):
+func _process(delta: float):
 	var movement_vector = _get_movement_vector()
 	var direction = movement_vector.normalized()
-	velocity = direction * max_speed * (delta * 50)
+	velocity = direction * max_speed * Timing.process_delta(delta)
 	move_and_slide()
 
 
