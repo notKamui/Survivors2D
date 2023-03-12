@@ -23,6 +23,13 @@ instance_dock/scenes=[{
 "scene": "res://scenes/game_camera/game_camera.tscn"
 }],
 "scroll": 0
+}, {
+"name": "Enemy",
+"scenes": [{
+"custom_texture": "res://scenes/basic_enemy/basic_enemy.png",
+"scene": "res://scenes/basic_enemy/basic_enemy.tscn"
+}],
+"scroll": 0
 }]
 
 [application]
