@@ -15,6 +15,12 @@ instance_dock/scenes=[{
 "scenes": [{
 "custom_texture": "res://scenes/player/player.png",
 "scene": "res://scenes/player/player.tscn"
+}, {
+"custom_texture": "res://scenes/ability/sword/sword.png",
+"scene": "res://scenes/ability/sword/sword_ability.tscn"
+}, {
+"custom_texture": "res://scenes/ability/sword/sword.png",
+"scene": "res://scenes/ability/sword/sword_ability_controller.tscn"
 }],
 "scroll": 0
 }, {
